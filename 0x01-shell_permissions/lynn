@@ -1,0 +1,4 @@
+./chmod u+x *
+git add .
+git commmit -m ' 0x01-shell_permissions'
+git push
