@@ -1,2 +1,2 @@
 #!/bin/bash
-ech(('echo $PATH |grep -0 ": /" | nc -l'+ 1))
+echo $(('echo $PATH |grep -0 ": /" | wc -l'+ 1))
